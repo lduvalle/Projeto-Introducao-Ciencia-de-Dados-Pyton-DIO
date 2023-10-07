@@ -75,3 +75,5 @@ token = create_user_access_token('22rxsto4zfjdqqyfdhx27v3jq','7d486b31ccdc419798
 
 ultimas_musicas = pd.DataFrame.from_dict(query_recent(token))
 print(ultimas_musicas)
+with open('arquivo.json', 'w') as arquivo:
+    json.dump(ultimas_musicas, arquivo)
