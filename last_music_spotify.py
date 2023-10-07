@@ -1,6 +1,6 @@
 #Importação de Bibliotecas
 import pandas as pd
-import requests
+import requests,json
 from spotipy.oauth2 import SpotifyOAuth
 import spotipy.util as util
 
